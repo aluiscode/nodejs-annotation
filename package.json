@@ -1,0 +1,19 @@
+{
+  "name": "terminal-inputs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "readArray.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazcanocode/nodejs-annotation.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lazcanocode/nodejs-annotation/issues"
+  },
+  "homepage": "https://github.com/lazcanocode/nodejs-annotation#readme"
+}
