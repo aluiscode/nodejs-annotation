@@ -9,6 +9,7 @@ process.stdin.on('data', (chunk) =>{
   inputString += chunk;
 });
 
+
 process.stdin.on('end', () => {
   inputArray = inputString.trim().split('\n').map(str => str.trim());
   main();
@@ -19,6 +20,11 @@ function readLine(){
 }
 
 function main(){
+  /*
+   *Input
+   *5
+   *1 2 3 4 5
+   */
   let value = parseInt(readLine(), 10);
   let arr = readLine().split(' ').map(arrTem => parseInt(arrTem));
 
